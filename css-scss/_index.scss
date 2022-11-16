@@ -1,0 +1,39 @@
+
+$p-color:#a52a2a;
+$p-size:22px;
+@import '@mixin';
+@mixin a-link($p-size,$p-color){
+   display:block;
+   font-size: $p-size;
+   color: $p-color;
+   text-decoration: none;
+}
+.title{
+    width: 500px;
+    border: 1px solid brown;
+    h1{
+        font-size: 20px;
+    }
+}
+p{
+    color:$p-color ;
+    font-size: $p-size*1.3;
+}
+.background{
+    background: url(https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg) no-repeat;
+    background-size: 65%;
+    width: 100px;
+    height: 50px;
+    a{
+        
+        @include text-to-img;
+        padding: 10% 0;    
+        }
+    }
+.mixinandv{
+    a{
+        @include a-link(50px,blue);
+        
+    }
+    
+}
