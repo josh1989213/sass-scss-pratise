@@ -1,0 +1,62 @@
+.wrap {
+  max-width: 1024px;
+}
+@media (max-width: 768px) {
+  .wrap {
+    background: blue;
+    width: 768px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 767px) {
+  .wrap {
+    background: yellow;
+    width: 767px;
+    border: 5px solid red;
+  }
+}
+@media (max-width: 320px) {
+  .wrap {
+    width: 320px;
+  }
+}
+.wrap img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .wrap img {
+    background: blue;
+    width: 768px;
+    height: auto;
+  }
+}
+@media (max-width: 415px) {
+  .wrap img {
+    width: 414px;
+  }
+}
+@media (max-width: 320px) {
+  .wrap img {
+    width: 320px;
+  }
+}
+.wrap p {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .wrap p {
+    background: blue;
+    width: 768px;
+    height: auto;
+  }
+}
+@media (max-width: 415px) {
+  .wrap p {
+    width: 414px;
+  }
+}
+@media (max-width: 320px) {
+  .wrap p {
+    width: 320px;
+  }
+}/*# sourceMappingURL=global-seting.css.map */

@@ -1,0 +1,91 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.wrap {
+  max-width: 1024px;
+}
+@media (max-width: 768px) {
+  .wrap {
+    background: blue;
+    width: 768px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 767px) {
+  .wrap {
+    background: yellow;
+    width: 767px;
+    border: 5px solid red;
+  }
+}
+@media (max-width: 320px) {
+  .wrap {
+    width: 320px;
+  }
+}
+.wrap img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .wrap img {
+    background: blue;
+    width: 768px;
+    height: auto;
+  }
+}
+@media (max-width: 415px) {
+  .wrap img {
+    width: 414px;
+  }
+}
+@media (max-width: 320px) {
+  .wrap img {
+    width: 320px;
+  }
+}/*# sourceMappingURL=all-rwd.css.map */
